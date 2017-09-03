@@ -38,6 +38,8 @@ if not settings.DEBUG:
 	# SECURITY WARNING: don't run with debug turned on in production!
 	DEBUG = False
 
+	ADMINS	 =(("Raymond","veliko.outro@gmail.com"),)
+
 	ALLOWED_HOSTS = ['velikooutro.webfactional.com','www.rmapuranga.com','rmapuranga.com']
 
 	EMAIL_HOST = 'smtp.gmail.com'
